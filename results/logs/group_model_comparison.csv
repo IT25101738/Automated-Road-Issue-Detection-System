@@ -1,0 +1,7 @@
+Member,Model,Optimal Hyperparameters,Train Accuracy (%),Test Accuracy (%),Overfitting Gap (%),Macro Precision,Macro Recall,Macro F1,Training Time (s),Inference (ms/sample)
+Member 1,Logistic Regression,"C=1.0, solver=lbfgs, PCA=50",40.56,38.92,1.64,0.3812,0.3892,0.3835,14.33,0.001
+Member 2,K-Nearest Neighbors,"K=7, weights=distance, metric=manhattan",88.5,74.68,13.82,0.741,0.7468,0.7352,17.11,0.004
+Member 3,Support Vector Machine,"Kernel=RBF, C=5.0, gamma=scale",69.25,62.86,6.39,0.6315,0.6286,0.621,36.81,0.082
+Member 4,Random Forest Ensemble,"n_estimators=100, max_depth=12, criterion=gini",90.44,72.26,18.18,0.724,0.7226,0.7188,46.3,0.015
+Member 5,Deep ANN (MLP),Dense(128)->Dropout(0.3)->Dense(64)->Softmax,82.5,70.03,12.47,0.7025,0.7003,0.6974,23.84,0.035
+Member 6,Convolutional Neural Network (CNN),"2 Conv Blocks (32, 64), MaxPool, Dropout(0.3), Adam",94.12,85.96,8.16,0.858,0.8596,0.8572,254.73,0.31

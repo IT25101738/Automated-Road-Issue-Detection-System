@@ -1,0 +1,82 @@
+{
+    "summary": [
+        {
+            "Member": "Member 1",
+            "Model": "Logistic Regression",
+            "Optimal Hyperparameters": "C=1.0, solver=lbfgs, PCA=50",
+            "Train Accuracy (%)": 40.56,
+            "Test Accuracy (%)": 38.92,
+            "Overfitting Gap (%)": 1.64,
+            "Macro Precision": 0.3812,
+            "Macro Recall": 0.3892,
+            "Macro F1": 0.3835,
+            "Training Time (s)": 14.33,
+            "Inference (ms/sample)": 0.001
+        },
+        {
+            "Member": "Member 2",
+            "Model": "K-Nearest Neighbors",
+            "Optimal Hyperparameters": "K=7, weights=distance, metric=manhattan",
+            "Train Accuracy (%)": 88.5,
+            "Test Accuracy (%)": 74.68,
+            "Overfitting Gap (%)": 13.82,
+            "Macro Precision": 0.741,
+            "Macro Recall": 0.7468,
+            "Macro F1": 0.7352,
+            "Training Time (s)": 17.11,
+            "Inference (ms/sample)": 0.004
+        },
+        {
+            "Member": "Member 3",
+            "Model": "Support Vector Machine",
+            "Optimal Hyperparameters": "Kernel=RBF, C=5.0, gamma=scale",
+            "Train Accuracy (%)": 69.25,
+            "Test Accuracy (%)": 62.86,
+            "Overfitting Gap (%)": 6.39,
+            "Macro Precision": 0.6315,
+            "Macro Recall": 0.6286,
+            "Macro F1": 0.621,
+            "Training Time (s)": 36.81,
+            "Inference (ms/sample)": 0.082
+        },
+        {
+            "Member": "Member 4",
+            "Model": "Random Forest Ensemble",
+            "Optimal Hyperparameters": "n_estimators=100, max_depth=12, criterion=gini",
+            "Train Accuracy (%)": 90.44,
+            "Test Accuracy (%)": 72.26,
+            "Overfitting Gap (%)": 18.18,
+            "Macro Precision": 0.724,
+            "Macro Recall": 0.7226,
+            "Macro F1": 0.7188,
+            "Training Time (s)": 46.3,
+            "Inference (ms/sample)": 0.015
+        },
+        {
+            "Member": "Member 5",
+            "Model": "Deep ANN (MLP)",
+            "Optimal Hyperparameters": "Dense(128)->Dropout(0.3)->Dense(64)->Softmax",
+            "Train Accuracy (%)": 82.5,
+            "Test Accuracy (%)": 70.03,
+            "Overfitting Gap (%)": 12.47,
+            "Macro Precision": 0.7025,
+            "Macro Recall": 0.7003,
+            "Macro F1": 0.6974,
+            "Training Time (s)": 23.84,
+            "Inference (ms/sample)": 0.035
+        },
+        {
+            "Member": "Member 6",
+            "Model": "Convolutional Neural Network (CNN)",
+            "Optimal Hyperparameters": "2 Conv Blocks (32, 64), MaxPool, Dropout(0.3), Adam",
+            "Train Accuracy (%)": 94.12,
+            "Test Accuracy (%)": 85.96,
+            "Overfitting Gap (%)": 8.16,
+            "Macro Precision": 0.858,
+            "Macro Recall": 0.8596,
+            "Macro F1": 0.8572,
+            "Training Time (s)": 254.73,
+            "Inference (ms/sample)": 0.31
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+# Large dataset folders (prevent pushing gigabytes of images)
+data/
+results/outputs/
+*.zip
+
+# Reports
+*.pdf
+
+# Python & Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
